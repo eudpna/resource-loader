@@ -1,0 +1,16 @@
+{
+    "name": "resource-loader",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.5",
+        "@types/howler": "^2.2.7"
+    },
+    "dependencies": {
+        "howler": "^2.2.3"
+    }
+}
